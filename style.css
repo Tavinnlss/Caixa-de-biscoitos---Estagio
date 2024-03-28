@@ -1,0 +1,125 @@
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+.home .logo img{
+    width: 180px;
+}
+.home .logo{
+    padding: 10px;
+}
+.test{
+    display: flex;
+}
+.home .centro{
+    padding: 10px;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+.home .centro .box{
+    background-color: #02a09e;
+    border-radius: 8px;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    flex: 1;
+}
+.home .centro .box-branco{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+.home .centro .box-branco h1{
+    color: #02a09e;
+    margin: 0;
+}
+.home .centro .box-branco p{
+    text-align: center;
+}
+.home .centro .box-branco img{
+    width: 100%;
+}
+.home .centro .box h3{
+    text-align: center;
+}
+.home .centro .box p{
+    text-align: center;
+}
+.home .centro .box .inputs{
+    display: flex;
+    flex-direction: column;
+}
+.home .centro .box .inputs input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-color: #f1f1f1;
+    margin-bottom: 10px;   
+}
+.home .centro .box .inputs select{
+    padding: 10px  15px;
+    border-radius: 8px;
+    border-color: #f1f1f1;
+    margin-bottom: 10px;
+    color: gray;
+}
+/* 5+5 */
+
+.home .centro .box .button{
+    display: flex;
+    justify-content: center;
+}
+.home .centro .box .button button{
+    background-color: #e68320;
+    color: #f1f1f1;
+    margin: 20px 2px; 
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home .cards{
+    background-color: #02a09e;
+    width: 100%;
+    padding: 5px;  
+}
+.home .cards .box{
+    padding: 10px;
+    width: calc(50% - 20px);
+}
+.home .cards .box img{
+    width: 100%;
+}
+.home .cards .box h4{
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.home .cards p{
+    color: #f1f1f1;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:800px){
+    .home .centro .container .test {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:800px){
+    .home .cards .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
